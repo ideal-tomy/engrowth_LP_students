@@ -31,18 +31,11 @@
   </header>
 
   <!-- 1. Hero Section -->
-  <section id="hero" class="bg-gray-50 py-16 md:py-24 min-h-[calc(100vh-64px)] flex items-center">
-    <div class="container mx-auto px-6 text-center md:text-left">
-      <div class="md:grid md:grid-cols-2 items-center gap-12">
-        <div class="fade-in slide-in-left">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6">
-            生まれは選べない。<br class="hidden md:inline"><span class="text-primary">未来は選べる。</span>
-          </h1>
-          <p class="text-lg md:text-xl text-neutral mb-10">
-            毎日伴走の英会話習慣化と留学体験で、<br class="hidden sm:inline">あなたの自信と可能性を解放します。
-          </p>
-        </div>
-        <div class="fade-in slide-in-right mt-10 md:mt-0 flex flex-col items-center md:items-end">
+  <section id="hero" class="bg-gray-50 py-16 md:py-24 min-h-[calc(100vh-64px)] flex items-stretch">
+    <div class="container mx-auto px-6 h-full">
+      <div class="md:grid md:grid-cols-2 items-stretch gap-12">
+        <!-- Left Column: Form -->
+        <div class="fade-in slide-in-left flex flex-col items-center md:items-start">
           <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full">
             <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">今すぐ相談して未来を変える第一歩を</h3>
             <a href="https://line.me/R/ti/p/%40yourlineid" target="_blank" class="block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full text-center mb-3 transition-colors duration-300 font-sans-jp">
@@ -52,6 +45,18 @@
               メールで問い合わせる
             </a>
             <p class="text-xs text-neutral mt-4 text-center">ご相談は無料です。お気軽にお問い合わせください。</p>
+          </div>
+        </div>
+        <!-- Right Column: Image with Text Overlay -->
+        <div class="fade-in slide-in-right mt-10 md:mt-0 relative rounded-lg overflow-hidden">
+          <img src="assets/images/キャンパスライフ01.webp" alt="Engrowth ヒーローイメージ" class="block rounded-lg shadow-xl w-full h-full object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center p-6">
+            <h1 class="text-3xl lg:text-4xl font-bold text-white mb-4">
+              生まれは選べない。<br class="hidden md:inline"><span class="text-primary">未来は選べる。</span>
+            </h1>
+            <p class="text-md lg:text-lg text-gray-200">
+              毎日伴走の英会話習慣化と留学体験で、<br class="hidden sm:inline">あなたの自信と可能性を解放します。
+            </p>
           </div>
         </div>
       </div>
@@ -113,10 +118,6 @@
       <div class="fade-in">
         <h3 class="text-xl font-bold mb-4 font-sans-jp tracking-wider">VISION</h3>
         <p class="text-3xl md:text-4xl font-serif-jp font-bold mb-10 md:mb-12">どんな環境に生まれても、<br class="sm:hidden">自分が生きたい人生を。</p>
-      </div>
-      <div class="fade-in" style="transition-delay: 0.2s;">
-        <h3 class="text-xl font-bold mb-4 font-sans-jp tracking-wider">MISSION</h3>
-        <p class="text-3xl md:text-4xl font-serif-jp font-bold">英会話と海外体験で、<br class="sm:hidden">自らの手で人生を切り拓く学生を増やす。</p>
       </div>
     </div>
   </section>
@@ -202,14 +203,17 @@
       <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-12 md:mb-16 fade-in">親御さんにも<span class="text-primary">安心の３つの仕組み</span></h2>
       <div class="grid md:grid-cols-3 gap-8">
         <div class="bg-white p-6 rounded-lg shadow-lg fade-in slide-in-bottom">
+          <img src="assets/images/en_01.png" alt="学習進捗を週報 PDF で共有" class="w-full h-48 object-cover rounded-t-lg mb-4">
           <h3 class="text-xl font-bold text-primary mb-3">① 学習進捗を週報 PDF で共有</h3>
           <p class="text-neutral">お子様の学習状況や成長を定期的にご報告。透明性の高いサポートをお約束します。</p>
         </div>
         <div class="bg-white p-6 rounded-lg shadow-lg fade-in slide-in-bottom" style="transition-delay: 0.2s;">
-          <h3 class="text-xl font-bold text-primary mb-3">② 日本語サポートデスク</h3>
+          <img src="assets/images/en_01.png" alt="定期的な三者面談を実施" class="w-full h-48 object-cover rounded-t-lg mb-4">
+          <h3 class="text-xl font-bold text-primary mb-3">② 定期的な三者面談を実施</h3>
           <p class="text-neutral">平日10時～18時まで、日本人スタッフが対応。万が一の時も安心です。</p>
         </div>
         <div class="bg-white p-6 rounded-lg shadow-lg fade-in slide-in-bottom" style="transition-delay: 0.4s;">
+          <img src="assets/images/en_01.png" alt="現地医療・保険パッケージ" class="w-full h-48 object-cover rounded-t-lg mb-4">
           <h3 class="text-xl font-bold text-primary mb-3">③ 現地医療・保険パッケージ</h3>
           <p class="text-neutral">留学中の健康と安全を第一に。信頼できる医療・保険パッケージを一括手配します。</p>
         </div>
